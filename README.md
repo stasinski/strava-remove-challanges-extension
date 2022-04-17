@@ -1,1 +1,1 @@
-# strava-remove-challanges-extension
+![example](./example.png)
