@@ -1,7 +1,7 @@
-// feed class
-const FEED = ".feed";
+// feed selector
+const FEED = "#interval-rides";
 //  activity wrapper class
-const ACTIVITY_WRAPPER = ".react-card-container";
+const ACTIVITY_WRAPPER = ".Feed--entry-container--ntrEd";
 //  challange post -> data-react-class="ChallengeJoin"
 const CHALLENGE_JOIN = "ChallengeJoin";
 
@@ -17,7 +17,7 @@ const callback = () => {
 
   activities.forEach((activity) => {
     const child = activity.children[0];
-    if (child.dataset.reactClass === CHALLENGE_JOIN) {
+    if (child.children.length === 2) {
       activity.style.display = "none";
     }
   });
