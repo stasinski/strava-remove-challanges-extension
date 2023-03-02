@@ -1,7 +1,9 @@
 // feed selector
 const FEED = "#interval-rides";
+
 //  activity wrapper class
-const ACTIVITY_WRAPPER = ".Feed--entry-container--ntrEd";
+const ACTIVITY_WRAPPER =
+  "._-_-packages-feed-ui-src-features-FeedEntry__entry-container--vBe17";
 //  challange post -> data-react-class="ChallengeJoin"
 const CHALLENGE_JOIN = "ChallengeJoin";
 
